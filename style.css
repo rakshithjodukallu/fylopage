@@ -30,18 +30,18 @@ main{
 }
 
 .navbar-nav li a{
-    font-size: 25px;
+    font-size: 18px;
     color: #7c7b82;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
 @media only screen and (max-width: 1200px) {
     .navbar-nav li a{
-        font-size: 18px;
+        font-size: 14px;
     }
     .navbar-nav li{
-        padding:0 30px;
+        padding:0 15px;
     }
     
   }
@@ -91,7 +91,7 @@ p{
 h1{
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
-font-size: 53px;
+font-size: 40px;
 color: #524e75;
 margin-bottom: 25px;
 }
@@ -100,14 +100,18 @@ margin-bottom: 25px;
     h1{
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 30px;
         color: #524e75;
         margin-bottom: 25px;
         }
         p {
             font-weight: 700;
-            font-size: 20px;
+            font-size: 18px;
             color: #7c7b82;
+        }
+
+        .banner-input input {
+            height: 35px;
         }
   }
 
@@ -119,35 +123,11 @@ margin-bottom: 25px;
         gap: 10px;
     }
 
-    .navbar-nav li a {
-        padding: 0 15px;
-        font-size: 16px;
-        color: #7c7b82;
-        font-weight: 600;
-    }
+    
 
-    h1 {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 25px;
-        color: #524e75;
-        margin-bottom: 5px;
-        text-align: center;
-    }
-    p {
-        font-weight: 700;
-        font-size: 16px;
-        color: #7c7b82;
-        text-align: center;
-
-    }
-    .main-bannerinner {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 20px;
-        align-items: center;
-        justify-content: center;
-    }
+    
+   
+    
 
     .banner-details{
         margin-top: 30px;
@@ -163,6 +143,7 @@ margin-bottom: 25px;
 
 #teamblock{
     background-color: #f9f8fe;
+    padding:10px 60px 100px;
 }
 
 section{
@@ -234,20 +215,14 @@ section{
 
  @media only screen and (max-width: 1200px) {
     
-    .teaminner-block{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
+    
     .team-review {
-        width: 450px;
-        height: 330px;
+        width: 100%;
+        height: 100%;
         margin: auto;
         background-color: #fff;
-        margin-top: 50px;
-        padding: 50px 30px 10px;
+        margin-top: 30px;
+        padding: 20px 20px 20px;
         border-radius: 15px;
         box-shadow: 2px 2px 20px #e5e4e7;
     }
@@ -276,13 +251,14 @@ section{
 
  .access-left h2{
     color: #fff;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
  }
 
  .access-left p{
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 16px;
     margin-top: 24px;
  }
 
@@ -345,7 +321,7 @@ section{
  }
 
  .footer-item ul li span{
-    margin-left: 20px;
+    margin-left: 3px;
  }
 
  .footer-social img{
@@ -397,15 +373,95 @@ section{
     .navbar-nav li {
         padding: 0px;
     }
-    .team-review {
+    
+    .main-bannerinner {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size:20px;
+        color: #524e75;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    p {
+        font-weight: 700;
+        font-size: 14px;
+        color: #7c7b82;
+        text-align: center;
+
+    }
+    .teaminner-block{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .seetext {
+        font-size: 14px;
+        color: #479888;
+    }
+
+    .arrow {
+        width: 15px;
+    }
+
+    .team-profileimage p {
+        font-size: 14px;
+        font-weight: 600;
+        color: black;
+        text-align: left;
+    }
+
+    .profile-name span {
+        font-size: 14px;
+        color: black;
+        text-align: left;
+    }
+
+    .quote {
+        width: 17px;
+        margin-bottom: 3px;
+    }
+    .team-profileimage img {
+        border-radius: 50%;
+        width: 51px;
+        margin-right: 10px;
+    }
+    .team-profileimage {
+        margin-top: 15px;
+       
+    }
+    .access-left h2 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .access-left p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+    .access-right .form-control {
+        height: 35px;
+    }
+
+    .access-right .btn-primary {
+        padding: 5px 20px;
         width: 100%;
-        height: 330px;
-        margin: auto;
-        background-color: #fff;
-        margin-top: 30px;
-        padding: 20px 20px 10px;
-        border-radius: 15px;
-        box-shadow: 2px 2px 20px #e5e4e7;
+        max-width: 100%;
+    }
+    #teamblock {
+        background-color: #f9f8fe;
+        padding: 10px 30px 40px;
     }
     
 
